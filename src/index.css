@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.glow {
+    transition: all 0.3s ease-in-out;
+}
+.b_glow {
+    box-shadow: 0 0 15px rgb(206, 71, 193);
+}
+.glow:hover {
+    box-shadow: 0 0 25px rgb(206, 71, 193);
+}
+.img-glow {
+    box-shadow: 0 0 55px rgb(206, 71, 193);
+}
+.memo_btn  {
+    transition: all 0.3s ease-in-out;
+}
+.memo_btn:hover {
+    box-shadow: 0 0 55px rgb(206, 71, 193);
+}
+
+/* .wth {
+  width: 200px;
+  height: 120px;
+  background-color: transparent;
+  box-shadow: 0 0 55px rgb(206, 71, 193);
+  border: 2px solid rgb(105, 17, 96);
+} */
